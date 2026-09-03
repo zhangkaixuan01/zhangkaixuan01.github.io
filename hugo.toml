@@ -3,10 +3,49 @@ languageCode = 'zh-CN'
 title = '张凯旋的技术博客'
 defaultContentLanguage = 'zh-cn'
 enableRobotsTXT = true
+theme = 'PaperMod'
+mainSections = ['posts']
 
 [params]
+  env = 'production'
   author = 'zhangkaixuan01'
   description = '记录技术实践、学习笔记与思考'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = '你好，欢迎来到我的技术博客 👋'
+    Content = '记录技术实践、学习笔记与思考。'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/zhangkaixuan01'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[menu]
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 30
 
 [permalinks]
   posts = '/posts/:year/:month/:day/:slug/'
