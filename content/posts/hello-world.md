@@ -1,5 +1,6 @@
 ---
 title: 你好，技术世界
+slug: hello-world
 description: 这是博客的第一篇文章。
 date: 2026-09-03T09:00:00+08:00
 categories:
