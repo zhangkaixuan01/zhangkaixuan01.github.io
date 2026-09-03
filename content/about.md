@@ -1,8 +1,8 @@
 ---
-layout: default
 title: 关于
-permalink: /about/
+url: /about/
 ---
+
 # 关于我
 
 这里是我的个人技术博客，主要记录开发实践、工具使用和学习心得。

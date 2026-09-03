@@ -1,0 +1,12 @@
+baseURL = 'https://zhangkaixuan01.github.io/'
+languageCode = 'zh-CN'
+title = '张凯旋的技术博客'
+defaultContentLanguage = 'zh-cn'
+enableRobotsTXT = true
+
+[params]
+  author = 'zhangkaixuan01'
+  description = '记录技术实践、学习笔记与思考'
+
+[permalinks]
+  posts = '/posts/:year/:month/:day/:slug/'
