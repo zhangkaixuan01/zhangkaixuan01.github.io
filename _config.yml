@@ -1,0 +1,24 @@
+title: 张凯旋的技术博客
+description: 记录技术实践、学习笔记与思考
+author: zhangkaixuan
+lang: zh-CN
+timezone: Asia/Shanghai
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title/
+excerpt_separator: "<!--more-->"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
