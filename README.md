@@ -8,7 +8,7 @@
 
 ## 发布到 GitHub Pages
 
-1. 在 GitHub 创建名为 `你的用户名.github.io` 的仓库。
+1. 在 GitHub 创建名为 `zhangkaixuan01.github.io` 的仓库。
 2. 将本目录初始化为 Git 仓库并推送到该仓库的 `main` 分支。
 3. 打开仓库 **Settings → Pages**，选择从 `main` 分支的根目录发布。
 
