@@ -1,7 +1,7 @@
 ---
 title: "多智能体性正在迁移：Agent 框架编排层的控制权外移"
 slug: multi-agent-orchestration-control-plane
-date: 2026-09-03T18:00:00+08:00
+date: 2026-09-03T17:00:00+08:00
 description: "在编码和工作执行类系统中，多智能体控制面如何从框架迁移到应用与平台。"
 categories:
   - 架构
