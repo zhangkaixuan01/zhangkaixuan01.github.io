@@ -1,7 +1,7 @@
 ---
 title: "Multica 是什么：把 AI Agent 变成团队成员"
 slug: multica-agent-team-architecture
-date: 2026-09-04T16:30:00+08:00
+date: 2026-09-04T12:00:00+08:00
 description: "从 Agent、Runtime 和 Run 三个概念出发，理解 Multica 如何让人和 AI 编程智能体协同工作。"
 categories:
   - AI Agent

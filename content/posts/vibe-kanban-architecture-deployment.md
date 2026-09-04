@@ -1,7 +1,7 @@
 ---
 title: "Vibe Kanban 架构拆解：云端协作，Agent 本地执行"
 slug: vibe-kanban-architecture-deployment
-date: 2026-09-04T15:00:00+08:00
+date: 2026-09-04T11:00:00+08:00
 description: "从源码理解 Vibe Kanban 如何编排 AI 编程 Agent，以及个人使用和中小企业自建 Remote 的正确姿势。"
 categories:
   - 架构
