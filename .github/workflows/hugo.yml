@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      build_future:
+        description: Include articles with a future publication date
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -31,7 +37,9 @@ jobs:
           hugo-version: latest
           extended: true
       - name: Build
-        run: hugo --gc --minify
+        env:
+          BUILD_FUTURE: ${{ inputs.build_future && 'true' || 'false' }}
+        run: hugo --gc --minify --buildFuture="$BUILD_FUTURE"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

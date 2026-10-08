@@ -45,6 +45,8 @@ draft: false
 
 提交并推送到 `main` 分支后，GitHub Actions 会自动构建并发布网站。
 
+也可以在 Actions → Deploy Hugo site → Run workflow 手动部署。默认只发布已到发布时间的非草稿文章；如需提前发布未来日期的文章，可勾选 `Include articles with a future publication date`。该选项会包含所有未来日期的非草稿文章，仅对本次手动构建生效。若在文章设定时间到来前再次进行默认构建，提前发布的文章会被排除。
+
 ## 本地预览
 
 安装 Hugo 后，在项目目录执行：
